@@ -4,11 +4,11 @@ public class day24 {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Masukkan nilai r: ");
-        double nilair = sc.nextDouble();
+        int r = sc.nextInt();
         final double phi = 3.14;
-        double luas = phi*(nilair*nilair);
+        double luas = phi*(r*r);
 
-        System.out.println("Luas Lingkaran dengan jari-jari " + nilair + " adalah " + luas);
+        System.out.println("Luas Lingkaran dengan jari-jari " + r + " adalah " + luas);
 
     }
 }
