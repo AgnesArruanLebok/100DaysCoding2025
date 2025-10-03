@@ -17,7 +17,7 @@ public class day26 {
 
         System.out.println("\n---Operator Penugasan Bitwise---");
         b = 5;
-        System.out.println("Nilai awal b = " + b + "(biner: 0101)");
+        System.out.println("Nilai awal b = " + b );
         b &= 3;
         System.out.println(" b &= 3 = " + b);
         b = 5;
