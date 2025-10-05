@@ -5,7 +5,7 @@ public class day28 {
 
         System.out.print("Masukkan angka pertama: ");
         int a = sc.nextInt();
-        System.out.print("Masukkan angka pertama: ");
+        System.out.print("Masukkan angka kedua: ");
         int b = sc.nextInt();
 
         boolean sama = (a == b );
