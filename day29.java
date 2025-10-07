@@ -13,15 +13,11 @@ public class day29 {
 
         boolean cekTinggi = tb > 150;
         boolean cekBerat = bb < 80;
+        boolean aman = cekTinggi == cekBerat;
 
         System.out.println("\n===Hasil pengecekan keamanan===");
         System.out.println("Apakah tinggi badan memenuhi standar keamanan (>150 cm)? " + cekTinggi);
         System.out.println("Apakah berat badan memenuhi standar keamanan (<80 kg)? " + cekBerat);
-
-        if(cekTinggi && cekBerat) {
-            System.out.println("Pengunjung memenuhi syarat keamanan dan diperbolehkan naik wahana.");
-        }else{
-            System.out.println("Pengunjung belum memenuhi syarat keamanan, tidak diperbolehkan naik wahana.");
-        }
+        System.out.println("Apakah diperbolehkan naik wahana? " + aman);
     }
 }
