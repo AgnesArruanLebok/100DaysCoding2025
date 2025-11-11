@@ -7,7 +7,7 @@ public class day65 {
         int angka = sc.nextInt();
         int hasil = 1;
         for (int i = 1; i <= angka; i++) {
-            hasil = hasil * i;
+            hasil *= i;
         }
 
         System.out.println("\nHasil dari " + angka + "! adalah: " + hasil);
